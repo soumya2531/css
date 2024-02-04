@@ -1,0 +1,368 @@
+ /* background properties */
+ /* body{
+  background-image: url("../css/fly.jpg");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-attachment: scroll;
+ } */
+ /* .head1{
+  border-top-style:dotted ;
+  border-right-style:solid ;
+  border-bottom-style:double ;
+  border-left-style:dashed ;
+ }  */
+  /* .head1{
+  border-style: solid;
+  border-width: 8px;
+  border-radius: 30px;
+  border-color: red blue yellow green;
+}  */
+/* .head3{
+  border-style: dashed;
+}
+.head4{
+  border-style: none;
+}
+.head5{
+  border-style: none;
+}  */
+/* div
+{
+  background-color: yellow;
+  color:red;
+  border:3px solid black;
+  margin:50px 60px 10px 30px;
+  padding:30px 10px 20px 40px;
+
+} */
+
+/* font style */
+
+/* body{
+  font-family:Arial;
+}
+h1,h2,h3
+{
+  font-family: "Times New Roman";
+}
+p
+{
+  font-style: italic;
+  font-size: 30px;
+} */
+/* body
+{
+  font:bold20px arial, sans-serif;
+} */
+
+/* text color */
+
+/* h1{
+  color:red;
+  background-color:green;
+}
+.button
+{
+  color:aqua;
+  background-color:yellow ;
+  padding:5px;
+  width:100px;
+} */
+
+/* text-alignment */
+
+ /* h1{
+  text-align:center;
+  color:red;
+  background-color:green;
+ }   */
+
+ /* text-decoration */
+
+ /* p{
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-indent: 30px;
+  letter-spacing: 3px;
+  line-height:2.8;
+  word-spacing: 2px;
+ }
+ h1{
+  text-align:left;
+  color:green;
+  text-shadow:2px 1px red ;
+
+ span{
+  text-decoration: line-through;
+ }
+  a{
+  text-decoration: none;
+ }  */
+
+ /* CSS LINKS */
+ /* body
+ {
+   margin-top:50px;
+ }
+ a
+ {
+  text-decoration:none;
+  color:black;
+  font-size:24px;
+ }
+ .button1
+ {
+  background-color: red;
+  padding:15px 20px;
+ }
+ .button1:hover
+ {
+  background-color: green;
+  color:white;
+ }
+ .button2
+ {
+  border:1px solid green;
+  padding:15px 20px;
+  border-radius: 25px;
+ }
+ .button2:hover
+ {
+  background-color: green;
+  color:white;
+ } */
+
+ /* CSS LIST */
+ /* body
+ {
+   margin-top:50px;
+   font-size:24px;
+ }
+  ul{
+  list-style-image:url('../css/fly.jpg');
+  list-style-type:upper-roman;
+ }
+
+ol{
+  list-style-image:url('../css/fly.jpg');
+  list-style-type:lower-alpha;
+ } 
+ul
+{
+  list-style-type: none;
+  background-color: #3399FF;
+  width:25%;
+  padding:50px;
+}
+ul li
+{
+  background-color: #CCE5FF;
+  margin:8px;
+  padding:8px;
+  color:blue;
+}
+ul li:hover
+{
+  color:white;
+  background-color:red;
+  text-decoration:underline;
+} */
+
+/* CSS TABLES */
+/* table, tr, td, th{
+  border:1px solid black;
+  border-collapse: collapse;
+  padding:10px;
+}
+table{
+  width: 30%;
+  height:auto;
+}
+tr, td, th{
+  text-align:left;
+}
+td{
+  height:50px;
+  vertical-align:middle;
+}
+ tr:nth-child(even)
+{
+  background-color: yellow;
+}
+tr:hover 
+{
+  background-color: blue;
+  color:white;
+} */
+
+/* CSS DISPLAY */
+/* ul li 
+{
+  display:inline;
+}
+span{
+  display:block;
+} */
+
+/* CSS DISPLAY (LAYOUT) */
+/* body{
+  font-size:24px;
+}
+#block1
+{
+  width:50%;
+  height: 400px;
+  background-color: red;
+  float: left;
+}
+#block2
+{
+  width:50%;
+  height: 400px;
+  background-color: yellow;
+  float:right;
+}
+#block3
+{
+  width:100%;
+  height:100px;
+  background-color: black;
+  clear:both;
+} */
+
+/* CSS COMBINATORS */
+  /* div p    (Descendant selector(space))
+{
+  color:red;
+} 
+ div > p  (child selector(>))
+{
+  color:red;
+} 
+div + p   (adjacent sibling selector(+))
+{
+  color:red;
+} 
+div ~ p     (general sibling selector(~))
+{
+  color:red;
+} */
+
+/* CSS OPACITY/TRANSPARENT */
+/* img (image)
+{
+  opacity:1.0;
+} */
+/* img:hover (hover effect)
+{
+  opacity:0.5;
+} */
+/* #sec1  (box)
+{
+  height:300px;
+  width:500px;
+  background-color: red;
+}
+#sec1:hover
+{
+  opacity:0.5;
+} */
+
+/* CSS WEBSITE LAYOUT */
+/* body
+{
+  width:80%;
+  margin:0px auto;
+  background-color: aqua;
+}
+h1
+{
+  text-align:center;
+  padding:20px;
+}
+#header
+{
+  height:100px;
+  width:100%;
+  background-color: red;
+}
+#banners
+{
+  height:200px;
+  width:100%;
+  background-color: yellow;
+  overflow:hidden;
+}
+#intro
+{
+  height:100px;
+  width:100%;
+  background-color: green;
+  overflow:hidden;
+}
+#box1
+{
+  height:400px;
+  width:32% ;
+  background-color:orange ;
+  float:left;
+  margin-right:2%;
+}
+#box2
+{
+  height:400px;
+  width:32% ;
+  background-color:red;
+  float:left;
+  margin-right:2%;
+}
+#box3
+{
+  height:400px;
+  width:32% ;
+  background-color:orange ;
+  float:right;
+
+}
+#footer
+{
+  height:100px;
+  width:100%;
+  background-color:yellow;
+  clear:both;
+} */
+
+#border
+{
+  width:20.4%;
+  height:500px;
+  color:black;
+  padding:10px;
+}
+#border h3
+{
+  color:grey;
+  padding:5px;
+}
+#bar
+{
+  width:21.8%;
+  height:2px;
+  background-color:grey;
+} 
+#header
+{
+  width:20.5%;
+  height:300px;
+}
+#header img
+{
+  padding:10px;
+}
+#header h3
+{
+  color:black;
+  float:right;
+  margin-right:2%
+}
+
